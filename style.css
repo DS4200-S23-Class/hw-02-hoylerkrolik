@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+th {
+    color: blue;
+}
+
+h3 {
+    text-align: left;
+}
+#task-abstraction {
+    display: flex;
+    align-self: center;
+    
+}
+h2 {
+    text-align: center;
+}
+
