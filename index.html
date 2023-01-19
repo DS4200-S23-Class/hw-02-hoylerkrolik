@@ -26,8 +26,9 @@
                 <tr>
                     <td>Google-Web.txt</td>
                     <td><a href="data/Google-Web.txt">link</a></td> 
-                    <td>Unknown</td>
+                    <td>Network</td>
                 </tr>
+                
                 <tr>
                     <td>UFO.csv</td>
                     <td><a href="data/UFO.csv">link</a></td> 
@@ -35,24 +36,53 @@
                 </tr>
             </table>
         </div>
+
         <div class = "info">
             <h1>Data Types</h1>
             <h3>UFO</h3>
-            <ul>
-                <li></li>
-            </ul>
+                <ul>
+                    <li></li>
+                </ul>
             <h3>Airports</h3>
+                <ul>
+                    <li>Row Data Type: Items</li>
+                    <li>Column 'Airport_Name' Data Type: Attribute</li>
+                    <ul>
+                        <li>Attribute Type: Categorical</li>
+                    </ul>
+                    <li>Column 'Latitude' Data Type: Position</li>
+                    <li>Column 'Longitude' Data Type: Position</li> 
+                </ul>
+                
             <h3>Google-Web</h3>
+                <ul>
+                    <li>Row Data Type: Items</li>
+                    <li>Column 'FromNodeId' Data Type: Link</li>
+                    <li>Column 'ToNodeId' Data Type: Link</li>
+                </ul>
         </div>    
 
-    </div id = 'task-abstraction'>
+    </div>
+
+    <div id = 'task-abstraction'>
         <h1>Task Abstraction</h1>
-        <div>
-            <img src="img/vis1.png" alt="vis1">
+        <div id = 'task-imgs'>
+            <div>
+                <img src="img/vis1.png" alt="vis1">
+                    <p>High Level Action</p>
+                    <p>Medium Level Action</p>
+                    <p>Low Level Action</p>
+                    <p>Target</p>
+            </div>
+            <div>
+                <img src="img/vis2.png" alt="vis2">
+                    <p>High Level Action</p>
+                    <p>Medium Level Action</p>
+                    <p>Low Level Action</p>
+                    <p>Target</p>
+            </div>
         </div>
-        <div>
-            <img src="img/vis2.png" alt="vis2">
-        </div>
+    </div>
 
     <div id = 'decoration'>
 
