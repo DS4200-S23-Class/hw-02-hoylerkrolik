@@ -11,11 +11,22 @@ h1 {
    margin-right: auto;
    width: 70%;
    text-align: center;
+   border-spacing: 0;
+   
 }
 
 th {
     background-color: lightblue;
+    border-bottom: 1px solid;
+    
 }
+
+td {
+    border-bottom: 1px solid;
+
+}
+
+
 
 h3 {
     text-align: left;
