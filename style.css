@@ -1,5 +1,16 @@
+html * {
+
+    font-family: Arial;
+}
+
 h1 {
     text-align: center;
+}
+#table {
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   text-align: center;
 }
 
 th {
