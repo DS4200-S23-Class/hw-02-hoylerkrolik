@@ -3,17 +3,13 @@ h1 {
 }
 
 th {
-    color: blue;
+    background-color: lightblue;
 }
 
 h3 {
     text-align: left;
 }
-#task-abstraction {
-    
-    
-        
-}
+
 
 #task-imgs {
     display: flex;
@@ -28,3 +24,28 @@ h2 {
     text-align: center;
 }
 
+
+#decoration {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle {
+    opacity: .5;
+    fill: lightblue;
+}
+
+.rect {
+    fill: yellow;
+    stroke: black;
+    stroke-width: 4px ;
+}
+
+.circle:hover {
+    stroke: black;
+    stroke-width: 4px;
+}
+
+.rect:hover{
+    fill: violet;
+}
