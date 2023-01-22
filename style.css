@@ -1,11 +1,15 @@
+/* Make font of full page Ariel */
 html * {
 
     font-family: Arial;
 }
 
+/* Align h1 to the center */
 h1 {
     text-align: center;
 }
+
+/* Format table correctly */
 #table {
    margin-left: auto;
    margin-right: auto;
@@ -15,24 +19,25 @@ h1 {
    
 }
 
+/* Format table header */
 th {
     background-color: lightblue;
     border-bottom: 1px solid;
     
 }
 
+/* format table border */
 td {
     border-bottom: 1px solid;
 
 }
 
-
-
+/* Align header 3 */
 h3 {
     text-align: left;
 }
 
-
+/* Format task abstraction section using flex */
 #task-imgs {
     display: flex;
     align-items: center;
@@ -41,33 +46,36 @@ h3 {
 
 }
 
-
+/* Center header 2 */
 h2 {
     text-align: center;
 }
 
-
+/* Format shape section using flex */
 #decoration {
     display: flex;
     justify-content: space-evenly;
 }
 
+/* Format circle */
 .circle {
     opacity: .5;
     fill: lightblue;
 }
-
+/* Format rectangle */
 .rect {
     fill: yellow;
     stroke: black;
     stroke-width: 4px ;
 }
 
+/* Hover over circle color */
 .circle:hover {
     stroke: black;
     stroke-width: 4px;
 }
 
+/* Hover over rectangle color */
 .rect:hover{
     fill: violet;
 }

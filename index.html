@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html> 
+<html>
 
+<!-- Name of our website, linking page to style sheet, character encoding -->
 <head>
     <meta charset=utf-8/>
     <link rel="stylesheet" href="style.css">
     <title>hw-02</title>
 </head>
 
-
+<!-- Body of the website -->
 <body>
+<!-- div that displays data abstraction section -->
     <div id = 'data abstraction'>
         <div class = 'info'> 
             <h1>Dataset Types</h1>
+            <!-- Creating table to display dataset types and links -->
             <table id = 'table'>
+                <!-- Table labels -->
                 <tr>
                     <th>Data</th>
                     <th>Link</th>
                     <th>Dataset Type</th>
                 </tr>
+                <!-- Airport dataset info -->
                 <tr>
                     <td>Airports.csv</td>
                     <td><a href="data/Airports.csv">link</a></td>
                     <td>Geometry</td>
                 </tr>
+                <!-- Google dataset info -->
                 <tr>
                     <td>Google-Web.txt</td>
                     <td><a href="data/Google-Web.txt">link</a></td> 
                     <td>Network</td>
                 </tr>
-                
+                <!-- UFO dataset info -->
                 <tr>
                     <td>UFO.csv</td>
                     <td><a href="data/UFO.csv">link</a></td> 
@@ -37,8 +43,10 @@
             </table>
         </div>
 
+        <!-- div for data type section for each database -->
         <div class = "info">
             <h1>Data Types</h1>
+            <!-- UFO data info -->
             <h3>UFO</h3>
                 <ul>
                     <li>Row Data Type: Item</li>
@@ -70,6 +78,7 @@
                     </ul>
 
             </ul>
+            <!-- Airport data info -->
             <h3>Airports</h3>
                 <ul>
                     <li>Row Data Type: Items</li>
@@ -80,7 +89,8 @@
                     <li>Column 'Latitude' Data Type: Position</li>
                     <li>Column 'Longitude' Data Type: Position</li> 
                 </ul>
-                
+
+            <!-- Google data info -->
             <h3>Google-Web</h3>
                 <ul>
                     <li>Row Data Type: Items</li>
@@ -91,6 +101,7 @@
 
     </div>
 
+<!-- div for task abstraction section for provided images -->
     <div id = 'task-abstraction'>
         <h1>Task Abstraction</h1>
         <div id = 'task-imgs'>
@@ -111,41 +122,41 @@
         </div>
     </div>
 
+<!-- div for shapes/swg section, created specified shapes w/ required characteristics-->
     <div id = 'decoration'>
-
+        <!-- Circle 1 -->
         <div class = 'circle'>
             <svg width="100" height="100">
                 <circle cx="50" cy="50" r="40"/>
             </svg>
         </div>
-
+        <!-- Rectangle 1 -->
         <div class = 'rect'>
             <svg width="400" height="100">
                 <rect width="300" height="100"/>
             </svg>
         </div>
-        
+        <!-- Circle 2 -->
         <div class = 'circle'>
             <svg width="100" height="100" >
                 <circle cx="50" cy="50" r="40"/>
             </svg>
         </div>
-
+        <!-- Rectangle 2 -->
         <div class = 'rect'>
             <svg width="400" height="100">
                 <rect width="300" height="100"/>
             </svg>
         </div>
-
+        <!-- Rectangle 3 -->
         <div class = 'circle'>
             <svg width="100" height="100">
                 <circle cx="50" cy="50" r="40"/>
             </svg>
         </div>
-
     </div>
 
-
+<!-- Acknowledgements section for references used in our HTML webpage -->
     <h2>Acknowledgements</h2>
     <div>
         <ul>
