@@ -39,12 +39,35 @@ h3 {
 
 /* Format task abstraction section using flex */
 #task-imgs {
-    display: flex;
-    align-items: center;
+    display: flex; 
+    flex-direction: row;
     color: fuchsia;
     text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+/* Format imgs of task-imgs */
+img {
+
+    max-width: 100%;
+    max-height: 100%;
 
 }
+
+/* Format for image-1 of task-imgs */
+.image-1 {
+    width: 50%;
+    height: 50%;
+}
+
+/* Format for image-2 of task-imgs */
+.image-2 {
+    width: 50%;
+    height: 50%;
+}
+
 
 /* Center header 2 */
 h2 {
@@ -54,7 +77,10 @@ h2 {
 /* Format shape section using flex */
 #decoration {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
+   
 }
 
 /* Format circle */
@@ -62,6 +88,7 @@ h2 {
     opacity: .5;
     fill: lightblue;
 }
+
 /* Format rectangle */
 .rect {
     fill: yellow;

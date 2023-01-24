@@ -104,69 +104,77 @@
 <!-- div for task abstraction section for provided images -->
     <div id = 'task-abstraction'>
         <h1>Task Abstraction</h1>
+
         <div id = 'task-imgs'>
-            <div>
+            <div class = 'image-1'>
                 <img src="img/vis1.png" alt="vis1">
+                <div>
                     <p>High Level Action: Consume, Present: In this visualization, the goal is to highlight and relay
-                        specific information about the daily maximum temperatures in Vancouver from 1979-2021.
-                    </p>
-                    <p>Medium Level Action: Search, Browse: Know the location of the data points on the visualization,
-                        but do not know the exact dates being referenced.
-                    </p>
-                    <p>Low Level Action: Compare: displaying multiple target data points compared to overall dataset.
-                    </p>
+                        specific information about the daily maximum temperatures in Vancouver from 1979-2021.</p>
+
+                    <p>Medium Level Action: Search, Locate: Know the location of the data points on the visualization and know the target (last 3 days).</p>
+
+                    <p>Low Level Action: Identify: displaying the one arget of interests (last 3 days) on the visualization.</p>
+                    
                     <p>Target: All data, Outliers: visualization highlights multiple temperature values of greater
-                        magnitude than most of the other data points in the chart.
-                    </p>
+                        magnitude than most of the other data points in the chart.</p>
+                </div>
             </div>
-            <div>
+
+            <div class = 'image-2'>
                 <img src="img/vis2.png" alt="vis2">
+                <div>
                     <p>High Level Action: Consume, Present: Relaying information about when the daily mean temperature
-                        in either Seattle or Portland was greater than 20 degrees Fahrenheit.
-                    </p>
+                        in either Seattle or Portland was greater than 20 degrees Fahrenheit.</p>
+
                     <p>Medium Level Action: Search, Browse: Know the location of the data points on the visualization,
-                        but do not know the exact dates being referenced.
-                    </p>
+                        but do not know the exact targets being referenced.</p>
+
                     <p>Low Level Action: Compare multiple targets: Goal is to compare the temperature
-                        data between Seattle and Portland
-                    </p>
+                        data between Seattle and Portland</p>
+
                     <p>Target: Attributes (Many), Similarity: Again, goal is to compare the temperature data
-                        between Seattle and Portland
-                    </p>
+                        between Seattle and Portland</p>
+                </div>
             </div>
         </div>
     </div>
 
 <!-- div for shapes/swg section, created specified shapes w/ required characteristics-->
     <div id = 'decoration'>
+
         <!-- Circle 1 -->
         <div class = 'circle'>
             <svg width="100" height="100">
-                <circle cx="50" cy="50" r="40"/>
+                <circle cx="50" cy="40" r="30"/>
             </svg>
         </div>
+
         <!-- Rectangle 1 -->
         <div class = 'rect'>
-            <svg width="400" height="100">
-                <rect width="300" height="100"/>
+            <svg width="100" height="100">
+                <rect width="75" height="75"/>
             </svg>
         </div>
+
         <!-- Circle 2 -->
         <div class = 'circle'>
             <svg width="100" height="100" >
-                <circle cx="50" cy="50" r="40"/>
+                <circle cx="50" cy="40" r="30"/>
             </svg>
         </div>
+        
         <!-- Rectangle 2 -->
         <div class = 'rect'>
-            <svg width="400" height="100">
-                <rect width="300" height="100"/>
+            <svg width="100" height="100">
+                <rect width="75" height="75"/>
             </svg>
         </div>
-        <!-- Rectangle 3 -->
+
+        <!-- Circle 3 -->
         <div class = 'circle'>
             <svg width="100" height="100">
-                <circle cx="50" cy="50" r="40"/>
+                <circle cx="50" cy="40" r="30"/>
             </svg>
         </div>
     </div>
